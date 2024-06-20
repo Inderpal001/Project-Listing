@@ -1,0 +1,83 @@
+.project-container {
+    width: 100%;
+    min-height: 100vh;
+    color: #ffffff;
+    background-color: #161636;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    padding: 2rem;
+    position: relative;
+}
+
+.inner-project-container {
+    width: 80%;
+}
+
+.welcome-heading {
+    font-size: 44px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.welcome-para {
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffffc4;
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 18px auto 0px;
+    max-width: 400px;
+}
+
+.input-div {
+    display: flex;
+    padding: 9px 22px;
+    background: #333395;
+    border-radius: 28px;
+    gap: 14px;
+    align-items: center; 
+}
+
+.project-input {
+    border: none;
+    outline: none;
+    background: transparent;
+    min-width: 280px;
+}
+
+.search-icon {
+    font-size: 18px;
+}
+
+.add-project-button {
+    background: #333395;
+    padding: 9px 20px;
+    border-radius: 40px;
+}
+
+.project-heading {
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.project-card-container {
+    max-width: 80%;
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 35px;
+    align-items: center;
+}
+
+.no-projects {
+    font-size: 16px;
+    font-weight: 300;
+}

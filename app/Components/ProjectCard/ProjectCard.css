@@ -1,0 +1,23 @@
+.project-card {
+    width: 170px;
+    height: 170px;
+    padding: 12px;
+    background-color: #333395;
+    border-radius: 11px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.project-img {
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+}
+
+.project-name {
+    font-size: 16px;
+    font-weight: 500;
+}
