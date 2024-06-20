@@ -138,3 +138,17 @@
     text-decoration: line-through;
     color: rgba(0, 0, 0, 0.49);
 }
+
+@media screen and (max-width:800px) {
+    .inner-modal {
+        width: 550px;
+        height: 601px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .inner-modal {
+        width: 90%;
+        height: 70vh;
+    }
+}
