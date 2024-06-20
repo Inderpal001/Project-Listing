@@ -69,7 +69,7 @@
 }
 
 .project-card-container {
-    max-width: 80%;
+    max-width: 100%;
     display: flex;
     margin-top: 20px;
     flex-wrap: wrap;
